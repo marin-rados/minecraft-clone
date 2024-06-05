@@ -1,0 +1,16 @@
+window.mcConfig = {
+	exp: {
+		dev: {
+			getFlightAssignment: true,
+			serviceUrl: 'https://net.dev-325496ed.web.minecraft-services.net/'
+		},
+		stage: {
+			getFlightAssignment: true,
+			serviceUrl: 'https://net.stage-732c232f.web.minecraft-services.net/'
+		},
+		prod: {
+			getFlightAssignment: false,
+			serviceUrl: 'https://net.web.minecraft-services.net/'
+		}
+	}
+};

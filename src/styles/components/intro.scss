@@ -1,0 +1,57 @@
+// .bg-main {
+//   display: flex;
+//   justify-content: flex-end;
+//   background-image: url("../assets/images/wallpaper_minecraft_buzzybees_1920x1080.png");
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   width: 100%;
+//   height: 57rem;
+// }
+
+.celebrate {
+  width: 100%;
+  background-color: var(--color-mc-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+  overflow: hidden;
+  &__images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__main {
+      margin: 0rem 0.5rem;
+    }
+    &__sides {
+      height: 10rem;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Minecraft", sans-serif;
+    margin-top: -10rem;
+    margin-bottom: -3rem;
+    &__title {
+      color: var(--color-white);
+      font-size: 3.5rem;
+      font-weight: 300;
+      margin-bottom: 1rem;
+      font-family: "Minecraft", sans-serif;
+    }
+    &__text {
+      color: var(--color-mc-grey);
+      font-family: "Minecraftia", sans-serif;
+      font-size: 1rem;
+      line-height: 1.5;
+      width: 30%;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+}

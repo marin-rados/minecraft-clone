@@ -1,0 +1,49 @@
+:root {
+  --color-header-bg: rgba(38, 36, 35, 0.9);
+  --color-white: #fff;
+  --color-mc-green-500: #3c8527;
+  --color-mc-green-200: #86d562;
+  --color-mc-green-100: #a0e081;
+  --color-mc-black: #171615;
+  --color-lightGray: lightgray;
+  --color-mc-grey: #d0c5c0;
+  --color-mc-grey-300: #aba09c;
+  --color-mc-grey-400: #6b6562;
+  --color-mc-grey-600: #262423;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+
+.test {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  color: grey;
+  font-size: 5rem;
+  cursor: url("../assets/sword-cursor.png"), default;
+}
+
+//imports
+
+//components
+
+@import "./components/celebrate.scss";
+@import "./components/footer.scss";
+@import "./components/games-sale.scss";
+@import "./components/header.scss";
+@import "./components/intro.scss";
+@import "./components/layout.scss";
+@import "./components/shape-your-world.scss";
+
+//pages
+
+@import "./pages/minecraft-dungeons.scss";
+@import "./pages/minecraft-java-bedrock-edition.scss";
+@import "./pages/minecraft-legends.scss";

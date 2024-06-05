@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+  padding: 2rem 0rem;
+  width: 100%;
+  &__companies {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    &__img {
+      cursor: pointer;
+    }
+  }
+  &__copyright {
+    margin-top: 2rem;
+    color: white;
+  }
+}
