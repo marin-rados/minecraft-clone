@@ -1,0 +1,106 @@
+.mc-legends {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mc-legends-intro {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url("https://www.minecraft.net/content/dam/games/minecraft/key-art/Legends-PMP_Hero-Art_FullBleedA_Desktop_2880x1320.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  width: 100%;
+  height: 55rem;
+  &__logo {
+    height: 8rem;
+    margin-bottom: 2rem;
+  }
+  &__buy {
+    display: flex;
+    justify-content: center;
+    padding: 0.25rem;
+    width: 12rem;
+    font-size: 1.25rem;
+    background-color: var(--color-mc-lightBlue-100);
+    border-bottom: 8px solid var(--color-mc-lightBlue-600);
+    cursor: pointer;
+    font-weight: 600;
+    font-family: "Noto Sans", sans-serif;
+    color: #071927;
+    &:hover {
+      background-color: #bcf5ff;
+    }
+  }
+}
+
+.mc-legends-update {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0rem;
+  background-color: #171615;
+  color: white;
+  width: 100%;
+  &__heading {
+    color: var(--color-mc-lightBlue-600);
+    font-size: 3rem;
+    font-family: "Minecraftia", sans-serif;
+    margin-bottom: 3rem;
+  }
+  &__img {
+    height: 30rem;
+  }
+  &__title {
+    margin: 2rem 0rem;
+    font-size: 1.5rem;
+    font-family: "Minecraftia", sans-serif;
+  }
+  &__description {
+    width: 60%;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+}
+
+.mc-legends-how-it-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #70dfff;
+  padding: 20rem 0rem 10rem 0rem;
+  width: 100%;
+  &__heading {
+    font-size: 2.5rem;
+    font-family: "Minecraftia", sans-serif;
+    margin-bottom: 2rem;
+  }
+}
+
+.mc-legends-options {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  &__card {
+    margin: 0rem 2rem;
+    &__img {
+      height: 25rem;
+    }
+    &__title {
+      font-family: "Minecraftia", sans-serif;
+      margin: 1rem 0rem;
+      font-size: 1.6rem;
+      text-align: center;
+    }
+    &__description {
+      text-align: center;
+      font-size: 1.1rem;
+    }
+  }
+}
